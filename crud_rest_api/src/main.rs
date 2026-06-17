@@ -10,6 +10,7 @@ use serde::{Deserialize,Serialize};
 use std::sync::{Arc,Mutex};
 
 
+
 #[derive(Debug, Serialize, Deserialize, Clone)]
 struct User {
     id: u32,
